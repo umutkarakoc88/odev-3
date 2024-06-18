@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="hakkinda.html">Hakkında</a></li>
+                <li><a href="servisler.html">Servisler</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="iletisim-main">
+        <section>
+            <h2>İletişim</h2>
+            <p>Bize ulaşmak için aşağıdaki bilgileri kullanabilirsiniz:</p>
+            <ul>
+                <li>Telefon: 0123 456 789</li>
+                <li>E-posta: info@ornek.com</li>
+                <li>Adres: Örnek Sokak, No: 123, Şehir</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Bize Ulaşın</h2>
+            <form action="/submit_form.html" method="get">
+                <!-- Text Input -->
+                <label for="fname">Ad:</label><br>
+                <input type="text" id="fname" name="fname" required><br>
+      
+                <label for="lname">Soyad:</label><br>
+                <input type="text" id="lname" name="lname" required><br>
+      
+                <!-- Email Input -->
+                <label for="email">E-posta:</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <!-- Textarea Input -->
+                <label for="message">Mesaj:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+
+                <!-- Submit Button -->
+                <input type="submit" value="Gönder">
+
+                </form>
+        </section>
+    </main>
+    <footer>
+        &copy; 2024 Tüm Hakları Saklıdır.
+    </footer>
+</body>
+</html>

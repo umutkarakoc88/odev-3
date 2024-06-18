@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fbf2d5; /* Light Cream for background */
+}
+
+header, footer {
+    background-color: #394a51; /* Dark Blue for header and footer */
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 10px;
+    color: white; /* White text for better contrast */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fdc57b; /* Soft Orange for links */
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.image-container img {
+    max-width: 33%; 
+    height: auto;
+    border-radius: 8px; 
+}
+
+/* Hizmetler listesi stili */
+.services-list {
+    list-style: none;
+    padding: 0;
+}
+
+.services-list li {
+    background-color: #fdc57b; /* Arka plan rengi */
+    margin: 1em 0; /* Üst ve alt boşluk */
+    padding: 1em; /* İç boşluk */
+    border: 1px solid #ddd; /* Kenarlık */
+    border-radius: 5px; /* Köşeleri yuvarlatma */
+}
+
+.services-list li:hover {
+    background-color: #f0f0f0; /* Hover durumunda arka plan rengi */
+}
+
+footer {
+    margin-top: 20px;
+}
+
+/* Hakkında sayfasındaki <main> etiketi için özel stil tanımı */
+.hakkinda-main {
+    background-image: url('assets/background-hakkinda.jpg');
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: left;
+}
+
+.servisler-main {
+    background-image: url('assets/background-servisler.jpg');
+    background-size: 40% auto;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: left;
+}
+
+.iletisim-main{
+    background-image: url('assets/background-iletisim.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    
+}
+
+form {
+    max-width: 400px;
+    margin-right: 20px;
+    background-color: #fdc57b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
